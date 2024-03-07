@@ -1,0 +1,369 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-color: #e2e2e2;
+}
+
+header .logo {
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size:25px;
+}
+h3{
+    color: #333;
+    font-size: 18px;
+}
+h4 {
+    font-size: 25px;
+    color: #333;
+    background-color: #ffdd00;
+    width: 100%;
+    max-width: 800px;
+    border-style:solid;
+    border-color: #333;
+    padding: 10px;
+    margin-top:15px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.question-title {
+     font-size: 25px;
+    color: #333;
+    border-style: solid;
+    border-color: #ffdd00;
+    border-width: 5px;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+/* User Information Form */
+#user-form form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#user-form label {
+    display: block;
+    margin: 10px 0 5px;
+    border-radius: 20px;
+}
+
+#user-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.answer-button{
+    font-size: 20px;
+    font-weight: 0;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #333;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    margin: 10px;
+    outline:none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    width:100%;
+    max-width: 800px;
+    display: block;
+    border-radius:20px;
+}
+
+.answer-button:hover{
+    font-size: 20px;
+    background-color: #ffdd00;
+    color: #333;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #333;
+}
+.answer-button:active{
+  background-color: #dcbf00;
+  box-shadow: 0 5px #333;
+  transform: translateY(5px);
+}
+
+.answer-button {
+    position: relative;
+    animation: btnAnimation 0.5s ease forwards;
+}
+
+.answer-selected {
+    background-color: #ffdd00;
+    color: #333;
+    position:relative;
+}
+
+/* Button styling */
+button {
+    font-size: 18px;
+    background-color: #ffdd00;
+    color: #333;
+    padding: 10px 5px;
+    border-style: solid;
+    border-color: #333;
+    border-width: 4px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    outline: none;
+    width: 100%;
+    max-width: 350px;
+    display: block;
+}
+
+button:hover {
+    background-color: #333;
+    color: #ffffff;
+    border-style: solid;
+    border-color: #ffdd00;
+    border-width: 4px;
+}
+
+/* Sections styling */
+section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Results Display */
+#results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
+#results h2 {
+    margin-bottom: 20px;    
+}
+
+#scoreDisplay, #answersReview {
+    margin-bottom: 20px;    
+}
+
+.result-question {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ffdd00;
+    border-style: solid;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    margin-bottom: 5px;
+   }
+   .result-answer {
+       color: #000;
+       margin-bottom:25px;
+       background-color: #ffffffe8;
+       border-style: solid;
+       width: 100%;
+       max-width: 800px;
+       margin: auto;
+       border-radius: 10px;
+       margin-bottom: 5px;
+       
+   }
+   
+   .result-correct {
+       color: #000;
+       margin-bottom:25px;
+       background-color: #4c4c4e30;
+       border-style: solid;
+       width: 100%;
+       max-width: 800px;
+       margin: auto;
+       border-radius: 10px;
+       margin-bottom: 55px;
+       
+   }
+   
+
+#quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#category-selection, #difficulty-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+}
+
+#categoryTitle, #difficultyTitle{
+    font-size: 25px;
+    color: #333;
+    border-style: solid;
+    border-color: #ffdd00;
+    border-width: 5px;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    header .logo {
+        max-width: 300px; /* Slightly smaller logo for tablet and mobile */
+    }
+
+    #user-form form, #results {
+        padding: 15px; /* Slightly less padding for more space */
+    }
+
+    /* Larger text and form elements for easier interaction on touch devices */
+    h1, h2 {
+        font-size: calc(100% + 1vw); /* Dynamic size adjustment */
+    }
+
+    #user-form label, #user-form input, button {
+        font-size: calc(100% + 0.5vw); /* Slightly larger text */
+    }
+
+    #user-form input, button {
+        padding: 12px 15px; /* Larger padding for easier tapping */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjustments for small devices like mobile phones */
+    header {
+        margin-bottom: 15px;
+    }
+
+    header .logo {
+        max-width: 300px; /* Further reduce logo size for small screens */
+    }
+
+    #user-form form, #results {
+        margin: 10px; /* Reduced margin for edge-to-edge design */
+        padding: 10px; /* Reduced padding */
+    }
+
+    /* Adjust font sizes for smaller screens */
+    h1 {
+        font-size: calc(100% + 2vw); /* Increase font size for visibility */
+    }
+
+    h2 {
+        font-size: calc(100% + 1.5vw);
+    }
+
+    #user-form label, #user-form input, button {
+        font-size: calc(100% + 1vw); /* Make text larger for better readability */
+    }
+
+    #user-form input, button {
+        padding: 14px 18px; /* Increase padding for better touch targets */
+    }
+}
+
+/* Custom scrollbar for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Style the scrollbar for webkit browsers (Chrome, Safari) */
+
+    header {
+        margin-bottom: 15px;
+    }
+
+    header .logo {
+        max-width: 300px;
+    }
+
+    body::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    body::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    
+    body::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+    
+    body::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+}

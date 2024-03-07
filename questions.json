@@ -1,0 +1,1173 @@
+[
+    {
+      "id": "1",
+      "category": "Conoscenza SPD",
+      "difficulty": "Facile",
+      "question": "Cosa fa uno scaricatore di sovratensione?",
+      "options": [
+          "Protegge i dispositivi elettronici da picchi di tensione improvvise",
+          "Aumenta la tensione elettrica per i dispositivi ad alta potenza",
+          "Riduce il consumo di energia degli apparecchi elettrici",
+          "Convertire l'energia elettrica da AC a DC"
+      ],
+      "answer": "Protegge i dispositivi elettronici da picchi di tensione improvvise"
+  },
+  {
+      "id": "2",
+      "category": "Conoscenza SPD",
+      "difficulty": "Facile",
+      "question": "Dove dovresti installare uno scaricatore di sovratensione per proteggere l'elettronica domestica?",
+      "options": [
+          "All'interno del dispositivo elettronico che si desidera proteggere",
+          "In un luogo umido per assicurarsi che funzioni correttamente",
+          "Tra la presa di corrente e il dispositivo elettronico che si desidera proteggere",
+          "Lontano da qualsiasi presa di corrente per ridurre i rischi di sovratensione"
+      ],
+      "answer": "Tra la presa di corrente e il dispositivo elettronico che si desidera proteggere"
+  },
+  {
+      "id": "3",
+      "category": "Conoscenza SPD",
+      "difficulty": "Facile",
+      "question": "Qual è il principale vantaggio dell'utilizzo di uno scaricatore di sovratensione?",
+      "options": [
+          "Aumenta la velocità di carica dei dispositivi elettronici",
+          "Prolunga la durata della batteria dei dispositivi mobili",
+          "Protegge i dispositivi elettronici da danni causati da sovratensioni",
+          "Migliora la qualità del segnale Wi-Fi in casa"
+      ],
+      "answer": "Protegge i dispositivi elettronici da danni causati da sovratensioni"
+  },
+  {
+      "id": "4",
+      "category": "Conoscenza SPD",
+      "difficulty": "Facile",
+      "question": "Quale affermazione descrive meglio uno scaricatore di sovratensione?",
+      "options": [
+          "Un dispositivo che consente ai dispositivi di funzionare con diverse tensioni",
+          "Un dispositivo che fornisce energia di backup durante un'interruzione di corrente",
+          "Un dispositivo che stabilizza la tensione di rete per gli elettrodomestici",
+          "Un dispositivo che devia l'eccesso di tensione lontano dai dispositivi per prevenire danni"
+      ],
+      "answer": "Un dispositivo che devia l'eccesso di tensione lontano dai dispositivi per prevenire danni"
+  },
+  {
+      "id": "5",
+      "category": "Conoscenza SPD",
+      "difficulty": "Facile",
+      "question": "Cosa significa 'Joule' in relazione agli scaricatori di sovratensione?",
+      "options": [
+          "La marca del dispositivo",
+          "La quantità di energia che lo scaricatore può assorbire prima di fallire",
+          "Il tipo di connettore usato per collegarlo alla rete elettrica",
+          "La lunghezza del cavo dello scaricatore"
+      ],
+      "answer": "La quantità di energia che lo scaricatore può assorbire prima di fallire"
+  },
+  {
+      "id": "6",
+      "category": "Conoscenza SPD",
+      "difficulty": "Facile",
+      "question": "Perché è importante controllare il rating di sovratensione di uno scaricatore?",
+      "options": [
+          "Determina la lunghezza del cavo del dispositivo",
+          "Indica il colore del dispositivo per un abbinamento estetico",
+          "Mostra quante prese elettriche ha lo scaricatore",
+          "Indica la massima sovratensione che il dispositivo può gestire in sicurezza"
+      ],
+      "answer": "Indica la massima sovratensione che il dispositivo può gestire in sicurezza"
+  },
+  {
+      "id": "7",
+      "category": "Conoscenza SPD",
+      "difficulty": "Facile",
+      "question": "Che tipo di dispositivi è più vulnerabile ai danni causati dalle sovratensioni?",
+      "options": [
+          "Lampadine a incandescenza",
+          "Dispositivi elettronici con circuiti sensibili, come computer e televisori",
+          "Elettrodomestici di grandi dimensioni come frigoriferi e lavatrici",
+          "Strumenti manuali non elettrici"
+      ],
+      "answer": "Dispositivi elettronici con circuiti sensibili, come computer e televisori"
+  },
+  {
+      "id": "8",
+      "category": "Conoscenza SPD",
+      "difficulty": "Facile",
+      "question": "Come può verificarsi una sovratensione?",
+      "options": [
+          "Accendendo una lampadina",
+          "Scollegando un dispositivo dalla presa di corrente",
+          "A causa di fulmini o cambiamenti improvvisi nel carico della rete elettrica",
+          "Usando un dispositivo con una batteria completamente carica"
+      ],
+      "answer": "A causa di fulmini o cambiamenti improvvisi nel carico della rete elettrica"
+  },
+  {
+      "id": "9",
+      "category": "Conoscenza SPD",
+      "difficulty": "Facile",
+      "question": "Qual è la funzione del LED su molti scaricatori di sovratensione?",
+      "options": [
+          "Indica la modalità di risparmio energetico del dispositivo",
+          "Serve come luce notturna per illuminare la stanza",
+          "Indica che il dispositivo è acceso e funzionante correttamente",
+          "Mostra la quantità di energia consumata dal dispositivo"
+      ],
+      "answer": "Indica che il dispositivo è acceso e funzionante correttamente"
+  },
+  {
+      "id": "10",
+      "category": "Conoscenza SPD",
+      "difficulty": "Facile",
+      "question": "Quale affermazione NON è vera riguardo agli scaricatori di sovratensione?",
+      "options": [
+          "Possono proteggere i dispositivi elettronici da danni potenziali",
+          "Eliminano il bisogno di assicurazioni sui dispositivi elettronici",
+          "Alcuni modelli includono porte USB per la ricarica diretta dei dispositivi",
+          "Richiedono una manutenzione periodica per assicurarsi che funzionino correttamente"
+      ],
+      "answer": "Richiedono una manutenzione periodica per assicurarsi che funzionino correttamente"
+  },
+  {
+    "id": "11",
+    "category": "Conoscenza SPD",
+    "difficulty": "Media",
+    "question": "Quale parametro misura la capacità di uno scaricatore di sovratensione di gestire picchi di corrente?",
+    "options": [
+        "Tensione nominale",
+        "Corrente di scarica massima (Imax)",
+        "Joule rating",
+        "Tensione di clamping"
+    ],
+    "answer": "Corrente di scarica massima (Imax)"
+  },
+  {
+    "id": "12",
+    "category": "Conoscenza SPD",
+    "difficulty": "Media",
+    "question": "Cosa indica il valore di tensione di clamping di uno scaricatore di sovratensione?",
+    "options": [
+        "La tensione minima a cui il dispositivo inizia a condurre corrente",
+        "La massima tensione che il dispositivo può sopportare senza danneggiarsi",
+        "La tensione a cui il dispositivo inizia a deviare l'eccesso di corrente dalla linea",
+        "La quantità totale di energia che il dispositivo può assorbire"
+    ],
+    "answer": "La tensione a cui il dispositivo inizia a deviare l'eccesso di corrente dalla linea"
+  },
+  {
+    "id": "13",
+    "category": "Conoscenza SPD",
+    "difficulty": "Media",
+    "question": "Qual è il significato di 'tempo di risposta' in uno scaricatore di sovratensione?",
+    "options": [
+        "Il tempo che il dispositivo impiega per spegnersi automaticamente dopo un picco di tensione",
+        "Il tempo che il dispositivo impiega per attivarsi e deviare un picco di tensione",
+        "La durata della garanzia del prodotto",
+        "Il tempo necessario per installare il dispositivo"
+    ],
+    "answer": "Il tempo che il dispositivo impiega per attivarsi e deviare un picco di tensione"
+  },
+  {
+    "id": "14",
+    "category": "Conoscenza SPD",
+    "difficulty": "Media",
+    "question": "In che modo i scaricatori di sovratensione differiscono dai limitatori di sovratensione?",
+    "options": [
+        "I limitatori di sovratensione forniscono una protezione continua, mentre gli scaricatori agiscono solo in presenza di picchi",
+        "Gli scaricatori di sovratensione deviano l'eccesso di tensione, mentre i limitatori ne impediscono l'aumento oltre un certo limite",
+        "I limitatori di sovratensione sono usati solo in ambienti industriali, mentre gli scaricatori sono per uso domestico",
+        "Non c'è differenza; i termini sono intercambiabili"
+    ],
+    "answer": "Gli scaricatori di sovratensione deviano l'eccesso di tensione, mentre i limitatori ne impediscono l'aumento oltre un certo limite"
+  },
+  {
+    "id": "15",
+    "category": "Conoscenza SPD",
+    "difficulty": "Media",
+    "question": "Perché è importante che uno scaricatore di sovratensione abbia un'indicazione di 'protezione attiva'?",
+    "options": [
+        "Indica che il dispositivo può essere usato all'esterno in sicurezza",
+        "Significa che il dispositivo è compatibile con tutti i tipi di apparecchi elettronici",
+        "Mostra che il dispositivo è ancora in grado di proteggere contro le sovratensioni",
+        "Conferma che il dispositivo ha superato tutti i test di sicurezza"
+    ],
+    "answer": "Mostra che il dispositivo è ancora in grado di proteggere contro le sovratensioni"
+  },
+  {
+    "id": "16",
+    "category": "Conoscenza SPD",
+    "difficulty": "Media",
+    "question": "Qual è l'effetto della sovratensione su un circuito elettronico senza protezione adeguata?",
+    "options": [
+        "Aumenta l'efficienza energetica del circuito",
+        "Migliora la connettività wireless del dispositivo",
+        "Può causare danni irreversibili ai componenti sensibili",
+        "Riduce il consumo energetico del dispositivo"
+    ],
+    "answer": "Può causare danni irreversibili ai componenti sensibili"
+  },
+  {
+    "id": "17",
+    "category": "Conoscenza SPD",
+    "difficulty": "Media",
+    "question": "Qual è la caratteristica degli scaricatori di sovratensione che li rende particolarmente utili in aree soggette a temporali frequenti?",
+    "options": [
+        "La capacità di funzionare come un generatore di corrente in caso di blackout",
+        "La resistenza all'acqua e alle condizioni meteorologiche avverse",
+        "La loro abilità di intercettare e neutralizzare direttamente i fulmini",
+        "La capacità di gestire picchi di corrente elevati derivanti da fulmini"
+    ],
+    "answer": "La capacità di gestire picchi di corrente elevati derivanti da fulmini"
+  },
+  {
+    "id": "18",
+    "category": "Conoscenza SPD",
+    "difficulty": "Media",
+    "question": "Cosa si intende per 'serie' e 'parallelo' nella configurazione degli scaricatori di sovratensione?",
+    "options": [
+        "\"Serie\" significa collegarli in fila uno dopo l'altro, \"parallelo\" significa collegarli affiancati",
+        "\"Serie\" implica un collegamento wireless, mentre \"parallelo\" richiede cavi fisici",
+        "\"Serie\" indica l'uso domestico, \"parallelo\" per l'uso industriale",
+        "Non c'è differenza; sono solo termini di marketing"
+    ],
+    "answer": "\"Serie\" significa collegarli in fila uno dopo l'altro, \"parallelo\" significa collegarli affiancati"
+  },
+  {
+    "id": "19",
+    "category": "Conoscenza SPD",
+    "difficulty": "Media",
+    "question": "Qual è l'importanza del rating UL 1449 per gli scaricatori di sovratensione?",
+    "options": [
+        "Indica che lo scaricatore è approvato per l'uso in ambienti sottomarini",
+        "Certifica che lo scaricatore ha superato specifici standard di sicurezza per la protezione da sovratensioni",
+        "Mostra che lo scaricatore è energeticamente efficiente",
+        "Garantisce una garanzia a vita sul prodotto"
+    ],
+    "answer": "Certifica che lo scaricatore ha superato specifici standard di sicurezza per la protezione da sovratensioni"
+  },
+  {
+    "id": "20",
+    "category": "Conoscenza SPD",
+    "difficulty": "Media",
+    "question": "Perché alcuni scaricatori di sovratensione hanno più di una 'modalità di protezione'?",
+    "options": [
+        "Per offrire diversi livelli di luminosità LED",
+        "Per consentire la personalizzazione del suono dell'allarme",
+        "Per proteggere su linee diverse come elettrica, dati e telefono",
+        "Per cambiare la lingua dell'interfaccia utente del dispositivo"
+    ],
+    "answer": "Per proteggere su linee diverse come elettrica, dati e telefono"
+  },
+  {
+    "id": "21",
+    "category": "Conoscenza SPD",
+    "difficulty": "Difficile",
+    "question": "Quale standard internazionale regola la prestazione degli scaricatori di sovratensione per applicazioni a bassa tensione?",
+    "options": [
+        "IEEE 802.3",
+        "IEC 61643-11",
+        "ISO 9001",
+        "ANSI C37.20"
+    ],
+    "answer": "IEC 61643-11"
+  },
+  {
+    "id": "22",
+    "category": "Conoscenza SPD",
+    "difficulty": "Difficile",
+    "question": "Qual è la principale differenza tra uno scaricatore di sovratensione di Tipo 1 e uno di Tipo 2?",
+    "options": [
+        "Tipo 1 è usato per protezione esterna, Tipo 2 per interna",
+        "Tipo 1 è per bassa tensione, Tipo 2 per alta tensione",
+        "Tipo 1 è per circuiti DC, Tipo 2 per circuiti AC",
+        "Tipo 1 ha una corrente di scarica più elevata rispetto al Tipo 2"
+    ],
+    "answer": "Tipo 1 è usato per protezione esterna, Tipo 2 per interna"
+  },
+  {
+    "id": "23",
+    "category": "Conoscenza SPD",
+    "difficulty": "Difficile",
+    "question": "Quale tecnologia è comunemente impiegata negli scaricatori di sovratensione per ridurre il tempo di risposta?",
+    "options": [
+        "Varistori a ossido di metallo (MOV)",
+        "Diodi Zener",
+        "Induttori",
+        "Condensatori"
+    ],
+    "answer": "Varistori a ossido di metallo (MOV)"
+  },
+  {
+    "id": "24",
+    "category": "Conoscenza SPD",
+    "difficulty": "Difficile",
+    "question": "Come influisce la lunghezza del cavo tra lo scaricatore di sovratensione e l'apparecchio protetto sulla sua efficacia?",
+    "options": [
+        "Non ha alcun effetto",
+        "Cavi più lunghi offrono una migliore protezione",
+        "Cavi più corti riducono l'impedenza e migliorano la protezione",
+        "Cavi più lunghi aumentano la resistenza e quindi la protezione"
+    ],
+    "answer": "Cavi più corti riducono l'impedenza e migliorano la protezione"
+  },
+  {
+    "id": "25",
+    "category": "Conoscenza SPD",
+    "difficulty": "Difficile",
+    "question": "Nella progettazione di un sistema di protezione da sovratensione, cosa si intende per 'coordinamento SPD'?",
+    "options": [
+        "L'installazione di più SPD in serie per aumentare la capacità di assorbimento",
+        "La selezione di SPD con tempi di risposta coordinati per prevenire interferenze",
+        "L'adeguamento degli SPD per gestire sovratensioni di diversa magnitudo in varie parti dell'installazione",
+        "La disposizione fisica degli SPD per massimizzare l'estetica del sistema"
+    ],
+    "answer": "L'adeguamento degli SPD per gestire sovratensioni di diversa magnitudo in varie parti dell'installazione"
+  },
+  {
+    "id": "26",
+    "category": "Conoscenza SPD",
+    "difficulty": "Difficile",
+    "question": "Quale fattore NON influisce direttamente sulla scelta di uno scaricatore di sovratensione per un'installazione specifica?",
+    "options": [
+        "La tensione nominale del sistema",
+        "Il tipo di apparecchiatura protetta",
+        "Il colore del dispositivo SPD",
+        "La posizione geografica dell'installazione"
+    ],
+    "answer": "Il colore del dispositivo SPD"
+  },
+  {
+    "id": "27",
+    "category": "Conoscenza SPD",
+    "difficulty": "Difficile",
+    "question": "Perché è importante considerare la 'tensione di esercizio continua massima' (MCOV) quando si seleziona uno scaricatore di sovratensione?",
+    "options": [
+        "Indica il massimo livello di tensione che lo scaricatore può gestire continuamente senza danneggiarsi",
+        "Determina la massima distanza operativa tra lo scaricatore e l'apparecchio protetto",
+        "Misura la quantità di energia che lo scaricatore può assorbire in un singolo evento",
+        "Valuta l'efficienza energetica dello scaricatore durante il normale funzionamento"
+    ],
+    "answer": "Indica il massimo livello di tensione che lo scaricatore può gestire continuamente senza danneggiarsi"
+  },
+  {
+    "id": "28",
+    "category": "Conoscenza SPD",
+    "difficulty": "Difficile",
+    "question": "Come viene classificata la 'capacità di scarica nominale' (In) di uno scaricatore di sovratensione?",
+    "options": [
+        "La massima corrente di sovratensione che può essere gestita una sola volta",
+        "La corrente di sovratensione che lo scaricatore può gestire per un numero indefinito di volte",
+        "La corrente di scarica massima misurata durante test standardizzati",
+        "Un valore teorico che non ha applicazione pratica"
+    ],
+    "answer": "La corrente di scarica massima misurata durante test standardizzati"
+  },
+  {
+    "id": "29",
+    "category": "Conoscenza SPD",
+    "difficulty": "Difficile",
+    "question": "Qual è il ruolo dei dispositivi di protezione da sovratensione (SPD) in un sistema di messa a terra?",
+    "options": [
+        "Gli SPD non necessitano di un sistema di messa a terra per funzionare",
+        "Forniscono un percorso a bassa impedenza per deviare le sovratensioni verso terra",
+        "Isolano il sistema di messa a terra dalla rete elettrica per prevenire cortocircuiti",
+        "Aumentano l'impedenza del sistema di messa a terra per limitare la corrente di guasto"
+    ],
+    "answer": "Forniscono un percorso a bassa impedenza per deviare le sovratensioni verso terra"
+  },
+  {
+    "id": "30",
+    "category": "Conoscenza SPD",
+    "difficulty": "Difficile",
+    "question": "In che modo l'installazione di SPD in un impianto fotovoltaico differisce da quella in un impianto elettrico tradizionale?",
+    "options": [
+        "Gli SPD non sono necessari in impianti fotovoltaici poiché operano a tensioni più basse",
+        "Nell'impianto fotovoltaico, gli SPD sono utilizzati sia sul lato DC che AC per proteggere contro le sovratensioni indotte da fulmini",
+        "L'installazione in impianti fotovoltaici richiede SPD specializzati che possono gestire solo correnti continue",
+        "Non ci sono differenze significative nelle modalità di installazione"
+    ],
+    "answer": "Nell'impianto fotovoltaico, gli SPD sono utilizzati sia sul lato DC che AC per proteggere contro le sovratensioni indotte da fulmini"
+  },
+  {
+    "id": "31",
+    "category": "Normative Tecniche SPD",
+    "difficulty": "Facile",
+    "question": "Quale normativa definisce i requisiti di prestazione per gli scaricatori di sovratensione destinati all'uso residenziale?",
+    "options": [
+        "IEEE 802.3",
+        "IEC 61643-11",
+        "ISO 9001",
+        "ANSI C37.20"
+    ],
+    "answer": "IEC 61643-11"
+},
+{
+    "id": "32",
+    "category": "Normative Tecniche SPD",
+    "difficulty": "Facile",
+    "question": "Qual è lo scopo principale della norma IEC 61643-11?",
+    "options": [
+        "Stabilire i requisiti di sicurezza per l'installazione elettrica nelle case",
+        "Definire i criteri per la progettazione di impianti fotovoltaici",
+        "Specificare i requisiti e i metodi di prova per gli SPD utilizzati in sistemi a bassa tensione",
+        "Regolare l'efficienza energetica degli elettrodomestici"
+    ],
+    "answer": "Specificare i requisiti e i metodi di prova per gli SPD utilizzati in sistemi a bassa tensione"
+},
+{
+    "id": "33",
+    "category": "Normative Tecniche SPD",
+    "difficulty": "Facile",
+    "question": "Cosa specifica la norma EN 61643-11?",
+    "options": [
+        "I metodi di test per l'efficienza dei pannelli solari",
+        "Le specifiche per la connettività Wi-Fi negli apparecchi domestici",
+        "I requisiti per gli SPD in termini di prestazione e sicurezza",
+        "Le dimensioni standard per gli interruttori automatici"
+    ],
+    "answer": "I requisiti per gli SPD in termini di prestazione e sicurezza"
+},
+{
+    "id": "34",
+    "category": "Normative Tecniche SPD",
+    "difficulty": "Facile",
+    "question": "Quale organizzazione emette la norma IEC 61643-11?",
+    "options": [
+        "International Electrotechnical Commission (IEC)",
+        "Institute of Electrical and Electronics Engineers (IEEE)",
+        "International Organization for Standardization (ISO)",
+        "American National Standards Institute (ANSI)"
+    ],
+    "answer": "International Electrotechnical Commission (IEC)"
+},
+{
+    "id": "35",
+    "category": "Normative Tecniche SPD",
+    "difficulty": "Facile",
+    "question": "Perché è importante che uno scaricatore di sovratensione sia conforme alla norma IEC 61643-11?",
+    "options": [
+        "Garantisce che il dispositivo possa essere installato in qualsiasi paese del mondo",
+        "Assicura che il dispositivo sia compatibile con tutti i tipi di apparecchiature elettroniche",
+        "Indica che il dispositivo soddisfa specifici standard di sicurezza e prestazione",
+        "Dimostra che il dispositivo utilizza tecnologia wireless"
+    ],
+    "answer": "Indica che il dispositivo soddisfa specifici standard di sicurezza e prestazione"
+},
+{
+    "id": "36",
+    "category": "Normative Tecniche SPD",
+    "difficulty": "Facile",
+    "question": "Cosa rappresenta la marcatura CE su uno scaricatore di sovratensione?",
+    "options": [
+        "Che il prodotto è stato fabbricato negli Stati Uniti",
+        "Che il prodotto soddisfa i requisiti ambientali dell'Unione Europea",
+        "Che il prodotto è conforme alle normative europee applicabili, inclusa la sicurezza",
+        "Che il prodotto utilizza componenti elettronici di alta qualità"
+    ],
+    "answer": "Che il prodotto è conforme alle normative europee applicabili, inclusa la sicurezza"
+},
+{
+    "id": "37",
+    "category": "Normative Tecniche SPD",
+    "difficulty": "Facile",
+    "question": "Qual è l'obiettivo della norma UL 1449 per gli scaricatori di sovratensione?",
+    "options": [
+        "Stabilire le dimensioni standard per gli SPD",
+        "Definire i livelli di rumorosità accettabili per gli SPD",
+        "Specificare i requisiti di sicurezza per gli SPD utilizzati negli Stati Uniti",
+        "Regolare il consumo energetico degli SPD"
+    ],
+    "answer": "Specificare i requisiti di sicurezza per gli SPD utilizzati negli Stati Uniti"
+},
+{
+    "id": "38",
+    "category": "Normative Tecniche SPD",
+    "difficulty": "Facile",
+    "question": "In che modo la norma UL 1449 contribuisce alla sicurezza degli SPD?",
+    "options": [
+        "Limitando il consumo di energia dell'SPD",
+        "Richiedendo che tutti gli SPD siano dotati di un interruttore di spegnimento automatico",
+        "Stabilendo criteri di prestazione e sicurezza, inclusi i test di resistenza al fuoco",
+        "Impedendo la vendita di SPD non certificati online"
+    ],
+    "answer": "Stabilendo criteri di prestazione e sicurezza, inclusi i test di resistenza al fuoco"
+},
+{
+    "id": "39",
+    "category": "Normative Tecniche SPD",
+    "difficulty": "Facile",
+    "question": "Per quale motivo un'azienda dovrebbe scegliere scaricatori di sovratensione conformi alla normativa UL 1449?",
+    "options": [
+        "Per ridurre i costi di produzione",
+        "Per aumentare la durata del prodotto",
+        "Per assicurarsi che il prodotto sia sicuro e affidabile per i consumatori",
+        "Per migliorare la connettività Internet del dispositivo"
+    ],
+    "answer": "Per assicurarsi che il prodotto sia sicuro e affidabile per i consumatori"
+},
+{
+    "id": "40",
+    "category": "Normative Tecniche SPD",
+    "difficulty": "Facile",
+    "question": "Quali sono le implicazioni della conformità agli standard IEC per gli SPD in termini di commercializzazione internazionale?",
+    "options": [
+        "Limita la vendita degli SPD solo ai paesi membri dell'IEC",
+        "Facilita l'esportazione degli SPD conformi in molti paesi del mondo",
+        "Richiede che gli SPD siano venduti esclusivamente online",
+        "Impone l'uso di SPD solo in ambienti industriali"
+    ],
+    "answer": "Facilita l'esportazione degli SPD conformi in molti paesi del mondo"
+},
+{
+  "id": "41",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Media",
+  "question": "Qual è la differenza tra la norma IEC 61643-11 e la IEC 61643-21 riguardo agli SPD?",
+  "options": [
+      "IEC 61643-11 tratta degli SPD per linee di alimentazione, mentre la IEC 61643-21 per linee di segnale",
+      "IEC 61643-11 riguarda solo gli SPD industriali, la IEC 61643-21 solo quelli residenziali",
+      "IEC 61643-11 si applica agli SPD a bassa tensione, la IEC 61643-21 agli SPD ad alta tensione",
+      "Non c'è differenza; le due norme sono intercambiabili"
+  ],
+  "answer": "IEC 61643-11 tratta degli SPD per linee di alimentazione, mentre la IEC 61643-21 per linee di segnale"
+},
+{
+  "id": "42",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Media",
+  "question": "Come influisce la normativa EN 50561-1 sugli SPD utilizzati in ambienti domestici?",
+  "options": [
+      "Definisce i requisiti per la compatibilità elettromagnetica degli SPD",
+      "Impone limiti sull'uso di materiali pericolosi negli SPD",
+      "Specifica i requisiti di dimensione per gli SPD in ambienti domestici",
+      "Regola l'installazione di SPD in ambienti con bambini"
+  ],
+  "answer": "Definisce i requisiti per la compatibilità elettromagnetica degli SPD"
+},
+{
+  "id": "43",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Media",
+  "question": "Perché è importante per gli SPD essere conformi alla norma IEC 61643-31?",
+  "options": [
+      "Permette l'utilizzo degli SPD in reti di telecomunicazione",
+      "Garantisce che gli SPD possano resistere a temperature estreme",
+      "Stabilisce i requisiti per gli SPD usati in sistemi fotovoltaici",
+      "Assicura la compatibilità degli SPD con dispositivi IoT"
+  ],
+  "answer": "Stabilisce i requisiti per gli SPD usati in sistemi fotovoltaici"
+},
+{
+  "id": "44",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Media",
+  "question": "Quale ruolo ha la norma IEEE C62.41 nell'ambito degli SPD?",
+  "options": [
+      "Classifica gli SPD in base alla loro efficienza energetica",
+      "Fornisce linee guida per la valutazione del rischio di sovratensione",
+      "Specifica i criteri di prova per gli SPD destinati all'uso in ambienti residenziali e commerciali",
+      "Determina i requisiti minimi di resistenza meccanica per gli SPD"
+  ],
+  "answer": "Specifica i criteri di prova per gli SPD destinati all'uso in ambienti residenziali e commerciali"
+},
+{
+  "id": "45",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Media",
+  "question": "In che modo la norma IEC 62305-4 contribuisce alla protezione da sovratensione?",
+  "options": [
+      "Fornisce standard per la protezione dai fulmini e la messa a terra",
+      "Impone l'obbligo di installare SPD in tutti gli edifici nuovi",
+      "Limita la tensione di uscita degli SPD per prevenire danni ai dispositivi",
+      "Specifica i colori degli SPD per facilitarne l'identificazione"
+  ],
+  "answer": "Fornisce standard per la protezione dai fulmini e la messa a terra"
+},
+{
+  "id": "46",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Media",
+  "question": "Come la norma UL 1449 terza edizione ha migliorato la sicurezza degli SPD?",
+  "options": [
+      "Introducendo il concetto di Surge Protective Device (SPD)",
+      "Richiedendo che tutti gli SPD superino test di immersione in acqua",
+      "Aggiungendo requisiti per i test di resistenza al fuoco e di soppressione degli SPD",
+      "Eliminando la necessità di test di compatibilità elettromagnetica"
+  ],
+  "answer": "Aggiungendo requisiti per i test di resistenza al fuoco e di soppressione degli SPD"
+},
+{
+  "id": "47",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Media",
+  "question": "Qual è l'importanza della classificazione degli SPD secondo la loro 'Categoria di Uso'?",
+  "options": [
+      "Determina il prezzo finale del prodotto",
+      "Specifica l'ambiente operativo ottimale per l'SPD (residenziale, commerciale, industriale)",
+      "Indica il colore e il design degli SPD",
+      "Fornisce informazioni sulla compatibilità Bluetooth"
+  ],
+  "answer": "Specifica l'ambiente operativo ottimale per l'SPD (residenziale, commerciale, industriale)"
+},
+{
+  "id": "48",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Media",
+  "question": "Per quale motivo gli SPD devono essere testati per la 'corrente di scarica nominale' (In) secondo la IEC 61643-11?",
+  "options": [
+      "Per verificare la loro capacità di sopportare carichi pesanti senza surriscaldarsi",
+      "Per assicurare che possano gestire ripetutamente sovratensioni fino a un certo livello senza fallire",
+      "Per determinare la loro efficienza nel convertire l'energia solare in elettricità",
+      "Per misurare la lunghezza massima del cavo che possono supportare"
+  ],
+  "answer": "Per assicurare che possano gestire ripetutamente sovratensioni fino a un certo livello senza fallire"
+},
+{
+  "id": "49",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Media",
+  "question": "Cosa indica un SPD che ha superato i test secondo la norma IEC 61643-21?",
+  "options": [
+      "È adatto per l'uso in ambienti con alta umidità",
+      "Può essere utilizzato in tutte le applicazioni senza restrizioni",
+      "È specificamente progettato per proteggere le linee di dati e segnale",
+      "Offre la migliore protezione possibile contro le sovratensioni dirette"
+  ],
+  "answer": "È specificamente progettato per proteggere le linee di dati e segnale"
+},
+{
+  "id": "50",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Media",
+  "question": "Qual è il beneficio principale della conformità agli standard internazionali per gli SPD?",
+  "options": [
+      "Aumenta il valore di mercato degli SPD",
+      "Facilita il commercio internazionale garantendo un livello minimo di sicurezza e prestazioni",
+      "Riduce i costi di produzione grazie a processi standardizzati",
+      "Permette agli SPD di operare in reti wireless globali"
+  ],
+  "answer": "Facilita il commercio internazionale garantendo un livello minimo di sicurezza e prestazioni"
+},
+{
+  "id": "51",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Difficile",
+  "question": "Quali specifiche tecniche sono stabilite dalla IEC 61643-11 per valutare la performance degli SPD per le reti di alimentazione AC?",
+  "options": [
+      "Le dimensioni fisiche e il design degli SPD",
+      "I metodi di test per resistenza al fuoco e isolamento elettrico",
+      "La corrente di scarica massima, la tensione di protezione e il tempo di risposta",
+      "I requisiti di packaging e etichettatura per la vendita al dettaglio"
+  ],
+  "answer": "La corrente di scarica massima, la tensione di protezione e il tempo di risposta"
+},
+{
+  "id": "52",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Difficile",
+  "question": "Come il test di 'impulso di corrente combinato' (IEC 61643-11) influenza la selezione di un SPD?",
+  "options": [
+      "Determina l'abilità dell'SPD di operare in reti wireless",
+      "Valuta la capacità dell'SPD di proteggere contro sovratensioni simultanee su più vie",
+      "Misura la durata della batteria dell'SPD in condizioni di lavoro intensivo",
+      "Stabilisce la compatibilità dell'SPD con vari tipi di apparecchiature elettroniche"
+  ],
+  "answer": "Valuta la capacità dell'SPD di proteggere contro sovratensioni simultanee su più vie"
+},
+{
+  "id": "53",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Difficile",
+  "question": "In che modo la normativa IEC 62305-4 integra la protezione fornita dalla IEC 61643-11 per gli edifici?",
+  "options": [
+      "Fornendo linee guida per l'illuminazione efficiente degli edifici",
+      "Specifica requisiti per la protezione esterna e interna dai fulmini, includendo l'uso di SPD",
+      "Stabilisce standard per l'isolamento termico in edifici dotati di SPD",
+      "Regolamenta l'installazione di impianti fotovoltaici in edifici con SPD"
+  ],
+  "answer": "Specifica requisiti per la protezione esterna e interna dai fulmini, includendo l'uso di SPD"
+},
+{
+  "id": "54",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Difficile",
+  "question": "Perché è critico che gli SPD siano testati per 'sovratensioni di manovra' secondo la IEC 61643-11?",
+  "options": [
+      "Per assicurare la loro funzionalità in ambienti a gravità zero",
+      "Per verificare la resistenza degli SPD a sovratensioni generate da operazioni di commutazione",
+      "Per garantire che gli SPD possano essere utilizzati su veicoli spaziali",
+      "Per stabilire la resistenza al vento degli SPD in installazioni esterne"
+  ],
+  "answer": "Per verificare la resistenza degli SPD a sovratensioni generate da operazioni di commutazione"
+},
+{
+  "id": "55",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Difficile",
+  "question": "Qual è l'importanza della 'tensione residua' negli SPD secondo la IEC 61643-11?",
+  "options": [
+      "Indica l'efficienza energetica dell'SPD durante il normale funzionamento",
+      "Misura la tensione che rimane dopo che l'SPD ha deviato una sovratensione",
+      "Determina la capacità dell'SPD di funzionare in reti di telecomunicazione",
+      "Valuta la durata di vita prevista dell'SPD in cicli di carica"
+  ],
+  "answer": "Misura la tensione che rimane dopo che l'SPD ha deviato una sovratensione"
+},
+{
+  "id": "56",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Difficile",
+  "question": "Come la definizione di 'Classe di Test' (IEC 61643-11) influisce sulla scelta di un SPD per un'installazione specifica?",
+  "options": [
+      "Determina il tipo di apparecchiatura elettronica che l'SPD può proteggere",
+      "Classifica gli SPD basandosi sulla loro resistenza all'acqua e alla polvere",
+      "Indica il livello di protezione che un SPD fornisce in base ai tipi di sovratensione previsti",
+      "Specifica i colori e il design degli SPD per facilitare l'identificazione visiva"
+  ],
+  "answer": "Indica il livello di protezione che un SPD fornisce in base ai tipi di sovratensione previsti"
+},
+{
+  "id": "57",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Difficile",
+  "question": "Per quale motivo le norme di prova come la IEC 61643-21 sono vitali per gli SPD utilizzati in infrastrutture critiche?",
+  "options": [
+      "Per garantire l'integrità strutturale degli edifici in cui sono installati",
+      "Per assicurare una protezione affidabile delle apparecchiature sensibili in ambienti critici",
+      "Per permettere agli SPD di operare efficacemente in ambienti subacquei",
+      "Per stabilire standard uniformi di estetica e design in contesti critici"
+  ],
+  "answer": "Per assicurare una protezione affidabile delle apparecchiature sensibili in ambienti critici"
+},
+{
+  "id": "58",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Difficile",
+  "question": "Qual è il ruolo della 'capacità di scarica nominale' (In) nell'assicurare la longevità degli SPD secondo la IEC 61643-11?",
+  "options": [
+      "Determina il consumo energetico annuale dell'SPD",
+      "Indica la frequenza con cui l'SPD deve essere sostituito",
+      "Misura la capacità dell'SPD di gestire sovratensioni ripetute senza perdita di funzionalità",
+      "Valuta l'abilità dell'SPD di proteggere contro variazioni di tensione a lungo termine"
+  ],
+  "answer": "Misura la capacità dell'SPD di gestire sovratensioni ripetute senza perdita di funzionalità"
+},
+{
+  "id": "59",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Difficile",
+  "question": "In che modo la conformità alla norma UL 1449 influisce sull'assicurazione della qualità degli SPD?",
+  "options": [
+      "Riduce il bisogno di test di qualità interni da parte dei produttori",
+      "Fornisce un framework per valutazioni di terze parti sull'affidabilità degli SPD",
+      "Implica che gli SPD possono essere installati senza ulteriori controlli di conformità",
+      "Assicura che tutti gli SPD conformi possano resistere a impatti fisici diretti"
+  ],
+  "answer": "Fornisce un framework per valutazioni di terze parti sull'affidabilità degli SPD"
+},
+{
+  "id": "60",
+  "category": "Normative Tecniche SPD",
+  "difficulty": "Difficile",
+  "question": "Qual è l'impatto delle normative come la EN 50561-1 sulla distribuzione di SPD nel mercato europeo?",
+  "options": [
+      "Limita la vendita di SPD a paesi fuori dall'UE",
+      "Impone l'uso di SPD solo in applicazioni industriali all'interno dell'UE",
+      "Assicura che gli SPD venduti nell'UE soddisfino elevati standard di compatibilità elettromagnetica",
+      "Aumenta i costi di produzione degli SPD per i fabbricanti europei"
+  ],
+  "answer": "Assicura che gli SPD venduti nell'UE soddisfino elevati standard di compatibilità elettromagnetica"
+},
+{
+  "id": "61",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Facile",
+  "question": "Cosa è principalmente un fulmine?",
+  "options": [
+      "Un forte rumore prodotto dalle nuvole",
+      "Una scarica elettrica massiva tra nuvole e terra",
+      "Una forma di precipitazione come la pioggia o la neve",
+      "Un cambiamento di temperatura nell'atmosfera"
+  ],
+  "answer": "Una scarica elettrica massiva tra nuvole e terra"
+},
+{
+  "id": "62",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Facile",
+  "question": "Quale fenomeno naturale accompagna spesso un fulmine?",
+  "options": [
+      "Un arcobaleno",
+      "Il tuono",
+      "Una pioggia di meteoriti",
+      "Una tempesta di sabbia"
+  ],
+  "answer": "Il tuono"
+},
+{
+  "id": "63",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Facile",
+  "question": "Quanto veloce è un fulmine?",
+  "options": [
+      "Più lento del suono",
+      "Alla velocità del suono",
+      "Alla velocità della luce",
+      "Più veloce della luce"
+  ],
+  "answer": "Alla velocità della luce"
+},
+{
+  "id": "64",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Facile",
+  "question": "Qual è il principale pericolo dei fulmini per le persone?",
+  "options": [
+      "L'abbagliamento causato dalla luce",
+      "L'elevato rumore che può causare sordità",
+      "La scarica elettrica che può essere fatale",
+      "Il calore generato che può causare ustioni"
+  ],
+  "answer": "La scarica elettrica che può essere fatale"
+},
+{
+  "id": "65",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Facile",
+  "question": "Dove colpiscono principalmente i fulmini?",
+  "options": [
+      "In acqua",
+      "Sulle cime delle montagne",
+      "In zone aperte e su oggetti elevati",
+      "Sotto terra"
+  ],
+  "answer": "In zone aperte e su oggetti elevati"
+},
+{
+  "id": "66",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Facile",
+  "question": "Quale misura di sicurezza è raccomandata durante un temporale con fulmini?",
+  "options": [
+      "Stare sotto un albero",
+      "Rimanere in acqua per ridurre le probabilità di colpi diretti",
+      "Rimanere all'interno di un edificio o di un'auto",
+      "Utilizzare dispositivi elettronici all'aperto per distrarre i fulmini"
+  ],
+  "answer": "Rimanere all'interno di un edificio o di un'auto"
+},
+{
+  "id": "67",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Facile",
+  "question": "Che cosa determina il rumore del tuono?",
+  "options": [
+      "La velocità del vento durante il temporale",
+      "La distanza del fulmine dalla persona che lo ascolta",
+      "L'espansione rapida dell'aria riscaldata dal fulmine",
+      "La quantità di pioggia durante il temporale"
+  ],
+  "answer": "L'espansione rapida dell'aria riscaldata dal fulmine"
+},
+{
+  "id": "68",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Facile",
+  "question": "Qual è il modo più sicuro per proteggersi dai fulmini quando si è all'aperto?",
+  "options": [
+      "Correre il più velocemente possibile",
+      "Accucciarsi a terra, minimizzando il contatto con il suolo",
+      "Saltare continuamente per evitare il contatto diretto",
+      "Climbare il punto più alto disponibile"
+  ],
+  "answer": "Accucciarsi a terra, minimizzando il contatto con il suolo"
+},
+{
+  "id": "69",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Facile",
+  "question": "Qual è il periodo dell'anno in cui i fulmini sono più frequenti?",
+  "options": [
+      "Inverno",
+      "Primavera",
+      "Estate",
+      "Autunno"
+  ],
+  "answer": "Estate"
+},
+{
+  "id": "70",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Facile",
+  "question": "Perché è pericoloso utilizzare telefoni fissi durante un temporale?",
+  "options": [
+      "Possono attirare i fulmini",
+      "I fulmini possono viaggiare attraverso le linee telefoniche e causare scosse elettriche",
+      "Interferiscono con la capacità dei fulmini di scaricarsi correttamente",
+      "Riducono la visibilità durante il temporale"
+  ],
+  "answer": "I fulmini possono viaggiare attraverso le linee telefoniche e causare scosse elettriche"
+},
+{
+  "id": "71",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Media",
+  "question": "Quale fenomeno atmosferico è spesso associato alla formazione di fulmini?",
+  "options": [
+      "Arcobaleni doppi",
+      "Nuvole cumulonembi",
+      "Aurora boreale",
+      "Cirri sparsi"
+  ],
+  "answer": "Nuvole cumulonembi"
+},
+{
+  "id": "72",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Media",
+  "question": "Qual è la differenza principale tra un fulmine intra-nuvola e uno nuvola-terra?",
+  "options": [
+      "La direzione del vento durante il temporale",
+      "La distanza che il fulmine percorre",
+      "Il tipo di nuvole coinvolte nella formazione del fulmine",
+      "Il punto di partenza e di arrivo della scarica elettrica"
+  ],
+  "answer": "Il punto di partenza e di arrivo della scarica elettrica"
+},
+{
+  "id": "73",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Media",
+  "question": "Perché i fulmini tendono a colpire gli oggetti più alti in un'area?",
+  "options": [
+      "Perché sono più caldi dell'aria circostante",
+      "Perché offrono il percorso di minor resistenza verso il suolo",
+      "Perché sono di solito di colore più scuro",
+      "Perché l'umidità si accumula più facilmente su di essi"
+  ],
+  "answer": "Perché offrono il percorso di minor resistenza verso il suolo"
+},
+{
+  "id": "74",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Media",
+  "question": "Quanto dura tipicamente una scarica di fulmine?",
+  "options": [
+      "Meno di 1 secondo",
+      "Circa 5 secondi",
+      "Più di 10 secondi",
+      "Circa 30 secondi"
+  ],
+  "answer": "Meno di 1 secondo"
+},
+{
+  "id": "75",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Media",
+  "question": "Che cosa causa il bagliore visibile di un fulmine?",
+  "options": [
+      "La combustione dell'ossigeno nell'aria",
+      "La rifrazione della luce attraverso le gocce di pioggia",
+      "L'ionizzazione dell'aria intorno alla scarica elettrica",
+      "La condensazione dell'umidità nell'aria"
+  ],
+  "answer": "L'ionizzazione dell'aria intorno alla scarica elettrica"
+},
+{
+  "id": "76",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Media",
+  "question": "Quali sono le condizioni necessarie affinché si formi un fulmine?",
+  "options": [
+      "Bassa pressione atmosferica e umidità elevata",
+      "Alta pressione atmosferica e temperature fredde",
+      "Forti correnti ascendenti e una grande quantità di umidità",
+      "Vento calmo e cielo sereno"
+  ],
+  "answer": "Forti correnti ascendenti e una grande quantità di umidità"
+},
+{
+  "id": "77",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Media",
+  "question": "Quale tecnologia è comunemente utilizzata per localizzare i fulmini?",
+  "options": [
+      "Radar Doppler",
+      "Satelliti geostazionari",
+      "Rete di sensori di fulmini",
+      "Telescopi spaziali"
+  ],
+  "answer": "Rete di sensori di fulmini"
+},
+{
+  "id": "78",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Media",
+  "question": "Qual è l'effetto principale dei fulmini sull'ambiente?",
+  "options": [
+      "Aumento delle temperature globali",
+      "Produzione di ozono nell'atmosfera",
+      "Riduzione dei livelli di ossigeno",
+      "Aumento della salinità dei mari"
+  ],
+  "answer": "Produzione di ozono nell'atmosfera"
+},
+{
+  "id": "79",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Media",
+  "question": "Quale metodo può essere utilizzato per stimare la distanza di un fulmine?",
+  "options": [
+      "Misurando la temperatura dell'aria",
+      "Calcolando il tempo tra la vista del fulmine e il suono del tuono",
+      "Valutando la direzione del vento",
+      "Analizzando il tipo di nuvole presenti"
+  ],
+  "answer": "Calcolando il tempo tra la vista del fulmine e il suono del tuono"
+},
+{
+  "id": "80",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Media",
+  "question": "Qual è l'intensità media di una scarica di fulmine?",
+  "options": [
+      "30 ampere",
+      "300 ampere",
+      "3.000 ampere",
+      "30.000 ampere"
+  ],
+  "answer": "30.000 ampere"
+},
+{
+  "id": "81",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Difficile",
+  "question": "Qual è il processo attraverso il quale un fulmine può 'purificare' l'atmosfera?",
+  "options": [
+      "Filtrazione dell'aria tramite ionizzazione",
+      "Produzione di ozono che decompone i contaminanti",
+      "Raffreddamento dell'aria che condensa i contaminanti",
+      "Generazione di venti forti che disperdono gli inquinanti"
+  ],
+  "answer": "Produzione di ozono che decompone i contaminanti"
+},
+{
+  "id": "82",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Difficile",
+  "question": "Come si forma un 'fulmine positivo' e perché è considerato più pericoloso?",
+  "options": [
+      "Origina dalle parti superiori delle nuvole e ha una carica più elevata",
+      "Provoca da zone con alta pressione atmosferica e rilascia più energia",
+      "Si forma vicino al suolo e può viaggiare per lunghe distanze orizzontali",
+      "Ha una durata maggiore e può causare incendi più facilmente"
+  ],
+  "answer": "Origina dalle parti superiori delle nuvole e ha una carica più elevata"
+},
+{
+  "id": "83",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Difficile",
+  "question": "Qual è il significato di 'fulmine a farfalla' osservato in alcune scariche?",
+  "options": [
+      "La formazione di due fulmini simmetrici che si allontanano dal punto centrale",
+      "Una singola scarica che si biforca creando una forma simile a una farfalla",
+      "Il movimento oscillante del fulmine che ricorda il battito delle ali di una farfalla",
+      "La presenza di colori vivaci nel fulmine causati da varie temperature"
+  ],
+  "answer": "Una singola scarica che si biforca creando una forma simile a una farfalla"
+},
+{
+  "id": "84",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Difficile",
+  "question": "Perché i fulmini sono meno comuni sopra l'oceano rispetto alle aree terrestri?",
+  "options": [
+      "A causa della minore presenza di sale nell'aria sopra l'oceano",
+      "Perché l'acqua oceanica assorbe più rapidamente l'elettricità",
+      "A causa delle correnti d'aria stabili e dell'umidità uniforme sopra l'oceano",
+      "Per la maggiore riflessione della luce solare che impedisce la formazione di fulmini"
+  ],
+  "answer": "A causa delle correnti d'aria stabili e dell'umidità uniforme sopra l'oceano"
+},
+{
+  "id": "85",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Difficile",
+  "question": "Che cosa determina la variazione dei colori osservati nei fulmini?",
+  "options": [
+      "Il tipo di gas presenti nell'atmosfera che vengono ionizzati",
+      "La velocità della scarica elettrica",
+      "La temperatura dell'aria circostante al momento della scarica",
+      "L'angolo di osservazione del fulmine rispetto all'osservatore"
+  ],
+  "answer": "Il tipo di gas presenti nell'atmosfera che vengono ionizzati"
+},
+{
+  "id": "86",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Difficile",
+  "question": "Qual è la ragione per cui i fulmini possono apparire in diversi colori come blu, viola o persino rosso?",
+  "options": [
+      "Differenze nella composizione chimica della terra in varie località",
+      "La presenza di particolari tipi di inquinanti nell'aria",
+      "Variazioni nella composizione dell'atmosfera e nei tipi di gas presenti",
+      "Effetti ottici causati dalla rifrazione della luce attraverso le nuvole"
+  ],
+  "answer": "Variazioni nella composizione dell'atmosfera e nei tipi di gas presenti"
+},
+{
+  "id": "87",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Difficile",
+  "question": "Cosa causa il fenomeno raro del 'fulmine sferico'?",
+  "options": [
+      "Un campo magnetico terrestre eccezionalmente forte",
+      "Condizioni atmosferiche uniche che stabilizzano la scarica elettrica in una sfera",
+      "La collisione di due fulmini che generano una scarica sferica",
+      "Una variazione rapida della pressione atmosferica durante un temporale"
+  ],
+  "answer": "Condizioni atmosferiche uniche che stabilizzano la scarica elettrica in una sfera"
+},
+{
+  "id": "88",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Difficile",
+  "question": "Come influisce la temperatura dell'aria sulla formazione dei fulmini?",
+  "options": [
+      "Temperature più alte riducono la possibilità di formazione dei fulmini",
+      "Temperature più basse favoriscono la formazione di fulmini",
+      "Temperature più alte possono aumentare l'instabilità atmosferica, favorendo la formazione di fulmini",
+      "La temperatura non ha alcun effetto significativo sulla formazione dei fulmini"
+  ],
+  "answer": "Temperature più alte possono aumentare l'instabilità atmosferica, favorendo la formazione di fulmini"
+},
+{
+  "id": "89",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Difficile",
+  "question": "Quali studi sono stati condotti per comprendere meglio il comportamento dei fulmini?",
+  "options": [
+      "Analisi del suolo nelle zone frequentemente colpite dai fulmini",
+      "Osservazioni satellitari delle tempeste e dei modelli di fulmini",
+      "Esperimenti in laboratorio con generatori di fulmini artificiali",
+      "Tutte le opzioni sopra"
+  ],
+  "answer": "Tutte le opzioni sopra"
+},
+{
+  "id": "90",
+  "category": "Generalità sui Fulmini",
+  "difficulty": "Difficile",
+  "question": "In quale modo la fisica quantistica ha contribuito alla comprensione dei fulmini?",
+  "options": [
+      "Spiegando il meccanismo di ionizzazione dell'aria",
+      "Descrivendo l'effetto tunnel degli elettroni durante la formazione dei fulmini",
+      "Modellando le interazioni tra particelle subatomiche nelle nubi temporalesche",
+      "Non ha fornito alcun contributo significativo"
+  ],
+  "answer": "Descrivendo l'effetto tunnel degli elettroni durante la formazione dei fulmini"
+}
+]
+

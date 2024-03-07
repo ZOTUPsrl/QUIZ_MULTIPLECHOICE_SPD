@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
+<body>
+    <header>
+        <img src="zotup_logo_ita.png" alt="Logo del sito" class="logo"> 
+        <h1>QUIZ ZOTUP</h1>
+        <h2>Metti a prova le tue conoscenze</h2>
+    </header>
+
+    <!-- User Information Form -->
+    <section id="user-form">
+        <h3>Benvenuto, completa il form ed accedi al quiz</h3>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Mario" required>
+
+            <label for="surname">Cognome:</label>
+            <input type="text" id="surname" name="surname" placeholder="Rossi" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="mariorossi@email.com" required>
+
+
+            <div class="button-container">
+            <button type="submit" id="submitUserInfo">Accedi</button>
+        </div>
+        </form>
+    </section>
+
+    <!-- Category Selection -->
+    <section id="category-selection" style="display:none;">
+        <section id="categoryTitle" style="display: none;" class="categoryTitle">Seleziona la Categoria</section>
+        <div id="categories"> 
+            <!-- Categories will be inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Difficulty Selection -->
+    <section id="difficulty-selection" style="display:none;">
+        <div id="difficultyTitle" style="display: none;" class="difficultyTitle">Seleziona la Difficoltà</div>
+        <div id="difficulties">
+            <!-- Difficulties will be inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Quiz Questions -->
+    <section id="quiz" style="display:none;">
+        <h2 class>Domande</h2>
+        <!-- Quiz questions will be dynamically inserted here by JavaScript -->
+    </section>
+
+    <!-- Results Display -->
+    <div id="results" style="display:none;">
+        <div id="resultsContent"> <!-- New container for dynamic content -->
+            <h2>Risultato</h2>
+            <div id="scoreDisplay"></div>
+            <div id="answersReview"></div>
+        </div>
+        <!-- Navigation Buttons remain outside the dynamic content container -->
+        <div class="button-container">
+        <button type="button" id="restartQuiz">Ripeti il test</button>
+        <button type="button" id="changeCategory">Cambia Categoria</button>
+        <button type="button" id="changeDifficulty">Cambia Difficoltà</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+
+</body>
+</html>
