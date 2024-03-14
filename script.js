@@ -37,11 +37,35 @@ document.addEventListener('DOMContentLoaded', () => {
         displayCategories();
     }
     
+    function createBackButton(targetFunction) {
+        const backButton = document.createElement('button');
+        backButton.addEventListener('click', targetFunction);
+        return backButton;
+    }
+    function backToLogin() {
+        categorySelectionSection.style.display = 'none';
+        userForm.style.display = 'block';
+    }
+    
+    function backToCategorySelection() {
+        difficultySelectionSection.style.display = 'none';
+        displayCategories(); // This already handles showing the category selection
+    }
+    
+    function backToDifficultySelection() {
+        // Hide quiz or results and show difficulty selection
+        quizSection.style.display = 'none';
+        resultsSection.style.display = 'none'; // Adjust based on where the back button is placed
+        displayDifficulties();
+    }
+    
+    
     function displayCategories() {
         const categoryHeading = document.getElementById('categoryTitle');
         categoryHeading.style.display = 'block';
         const categoriesContainer = document.createElement('div');
         categoriesContainer.className = 'button-container';
+    
         const uniqueCategories = [...new Set(questionsData.map(question => question.category))];
         uniqueCategories.forEach(category => {
             const button = document.createElement('button');
@@ -49,12 +73,19 @@ document.addEventListener('DOMContentLoaded', () => {
             button.addEventListener('click', () => selectCategory(category));
             categoriesContainer.appendChild(button); // Append button to container
         });
-
     
+        // Define the categorySection here, before using it
         const categorySection = document.getElementById('category-selection');
         categorySection.innerHTML = ''; // Clear existing content
         categorySection.appendChild(categoryHeading);
         categorySection.appendChild(categoriesContainer); // Append the container to the section
+        
+        // Now that categorySection is defined, you can append the back button
+        const backButton = createBackButton(backToLogin);
+        backButton.innerHTML = '<i class="fas fa-arrow-left"></i> Torna alla login';
+        backButton.className = 'back-button';
+        categorySection.appendChild(backButton);
+    
         categorySection.style.display = 'flex'; // Make sure the display is set to flex
     }
     
@@ -70,19 +101,29 @@ document.addEventListener('DOMContentLoaded', () => {
         difficultyHeading.style.display = 'block';
         const difficultiesContainer = document.createElement('div');
         difficultiesContainer.className = 'button-container';
+        
         const difficulties = ['Facile', 'Media', 'Difficile']; // Example difficulties
+        
+        // Initialize difficultySection here before the loop and before appending anything to it
+        const difficultySection = document.getElementById('difficulty-selection');
+        difficultySection.innerHTML = ''; // Clear existing content
+        
         difficulties.forEach(difficulty => {
             const button = document.createElement('button');
             button.textContent = difficulty;
             button.addEventListener('click', () => selectDifficulty(difficulty));
             difficultiesContainer.appendChild(button); // Append button to container
         });
-
-
-        const difficultySection = document.getElementById('difficulty-selection');
-        difficultySection.innerHTML = ''; // Clear existing content
+    
         difficultySection.appendChild(difficultyHeading);
         difficultySection.appendChild(difficultiesContainer); // Append the container to the section
+        
+        // Append the back button after the difficultySection is fully defined and initialized
+        const backButton = createBackButton(backToCategorySelection);
+        backButton.innerHTML = '<i class="fas fa-arrow-left"></i> Torna alle Categorie';
+        backButton.className = 'back-button';
+        difficultySection.appendChild(backButton);
+        
         difficultySection.style.display = 'flex'; // Make sure the display is set to flex
     }
     
@@ -110,14 +151,14 @@ document.addEventListener('DOMContentLoaded', () => {
     
     function showQuestion() {
         const questionNumber = currentQuestionIndex + 1;
-        quizSection.innerHTML = `<h1 class="question-title"> DOMANDA NUMERO ${questionNumber} SU 10</h1><h4>${currentQuestions[currentQuestionIndex].question}</h4>`;
+        quizSection.innerHTML = `<h1 class="question-title">DOMANDA NUMERO ${questionNumber} SU 10</h1><h4>${currentQuestions[currentQuestionIndex].question}</h4>`;
         const buttonContainer = document.createElement('div');
         buttonContainer.className = 'button-container';
-
+    
         currentQuestions[currentQuestionIndex].options.forEach(option => {
             const button = document.createElement('button');
             button.textContent = option;
-            button.className = 'answer-button'; // Ensure your buttons have a class for easier selection if they don't already
+            button.className = 'answer-button';
             button.addEventListener('click', function() {
                 // Clear previously selected answer's styling
                 document.querySelectorAll('.answer-button').forEach(btn => {
@@ -130,14 +171,25 @@ document.addEventListener('DOMContentLoaded', () => {
             });
             buttonContainer.appendChild(button);
         });
-        
-
+    
         quizSection.appendChild(buttonContainer);
-
+    
+        // Next Question Button
         const nextQuestionButton = document.createElement('button');
         nextQuestionButton.textContent = 'Prossima Domanda';
         nextQuestionButton.addEventListener('click', nextQuestion);
         quizSection.appendChild(nextQuestionButton);
+    
+        // Back Button to allow going back to difficulty selection or category selection
+        const backButton = createBackButton(() => {
+            quizSection.style.display = 'none';
+            displayDifficulties();
+         
+        });
+        backButton.innerHTML = '<i class="fas fa-arrow-left"></i> Torna alla difficoltà';
+        backButton.className = 'back-button';
+        quizSection.appendChild(backButton);
+        
         quizSection.style.display = 'flex';
     }
 
@@ -179,6 +231,8 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
             // Append to the dynamic content container
             resultsContent.appendChild(resultItem);
+            const restartButton = document.createElement('button');
+
         });
     
         // Display score summary within resultsContent
@@ -196,16 +250,44 @@ document.addEventListener('DOMContentLoaded', () => {
         userAnswers = [];
         prepareQuestions(); // Assumes this function resets and starts the quiz
     }
+    
+    function resetGame() {
+        // Reset global state
+        currentQuestions = [];
+        userAnswers = [];
+        currentQuestionIndex = 0;
+        selectedCategory = '';
+        selectedDifficulty = '';
+        tempSelectedOption = '';
+    
+        // Reset UI elements
+        userForm.style.display = 'block'; // Show login form
+        categorySelectionSection.style.display = 'none';
+        difficultySelectionSection.style.display = 'none';
+        quizSection.style.display = 'none';
+        resultsSection.style.display = 'none';
+    
+        // Optionally, reset form inputs if any
+        userForm.reset();
+    
+        // You can also call loadQuestions here if you want to reload the questions
+        // loadQuestions();
+    }
+    function backToLogin() {
+        resetGame(); // This now not only shows the login form but also resets the game state
+    }
+
+
 
     document.getElementById('restartQuiz').addEventListener('click', restartQuiz);
 document.getElementById('changeCategory').addEventListener('click', () => {
     resultsSection.style.display = 'none';
-    categorySelectionSection.style.display = 'block';
+    categorySelectionSection.style.display = 'flex';
     // Reset any necessary states if needed
 });
 document.getElementById('changeDifficulty').addEventListener('click', () => {
     resultsSection.style.display = 'none';
-    difficultySelectionSection.style.display = 'block';
+    difficultySelectionSection.style.display = 'flex';
     // Reset any necessary states if needed
 });
 
