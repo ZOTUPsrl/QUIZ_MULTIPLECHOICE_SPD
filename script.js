@@ -176,8 +176,13 @@ document.addEventListener('DOMContentLoaded', () => {
     
         // Next Question Button
         const nextQuestionButton = document.createElement('button');
-        nextQuestionButton.textContent = 'Prossima Domanda';
-        nextQuestionButton.addEventListener('click', nextQuestion);
+        if (currentQuestionIndex + 1 === currentQuestions.lenght) {
+            nextQuestionButton.textContent = 'Mostra Risultati';
+            nextQuestionButton.addEventListener('click', displayResult);
+            else {
+            nextQuestionButton.textContent = 'Prossima Domanda';
+            nextQuestionButton.addEventListener('click', nextQuestion);
+        }
         quizSection.appendChild(nextQuestionButton);
     
         // Back Button to allow going back to difficulty selection or category selection
