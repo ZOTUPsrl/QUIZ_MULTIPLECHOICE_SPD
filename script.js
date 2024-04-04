@@ -179,6 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentQuestionIndex + 1 === currentQuestions.lenght) {
             nextQuestionButton.textContent = 'Mostra Risultati';
             nextQuestionButton.addEventListener('click', displayResult);
+        }
             else {
             nextQuestionButton.textContent = 'Prossima Domanda';
             nextQuestionButton.addEventListener('click', nextQuestion);
