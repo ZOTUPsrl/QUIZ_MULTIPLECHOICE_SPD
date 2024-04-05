@@ -19,6 +19,7 @@
     <section id="user-form">
         <h3>Benvenuto, completa il form ed accedi al quiz</h3>
         <form name="contact" method="POST" data-netlify="true" action="/grazie">
+            <input type="hidden" name="form-name" value="contact">
             <label for="name">Nome:</label>
             <input type="text" id="name" name="name" placeholder="Mario" required>
 
