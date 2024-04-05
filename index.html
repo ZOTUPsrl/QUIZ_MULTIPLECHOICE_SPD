@@ -18,8 +18,8 @@
     <!-- User Information Form -->
     <section id="user-form">
         <h3>Benvenuto, completa il form ed accedi al quiz</h3>
-        <form name="contact" method="POST" data-netlify="true" action="/grazie">
-            <input type="hidden" name="form-name" value="contact">
+        <form name="contact" action="POST" data-netlify="true">
+           
             <label for="name">Nome:</label>
             <input type="text" id="name" name="name" placeholder="Mario" required>
 
@@ -29,7 +29,8 @@
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="mariorossi@email.com" required>
 
-
+             <input type="file" name="myfile" id="myfile" placeholder="Upload">
+            
             <div class="button-container">
             <button type="submit" id="submitUserInfo">Accedi</button>
         </div>
